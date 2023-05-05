@@ -16,6 +16,15 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@wire/*": ["src/*"],
+      "@wire/modules/*": ["src/modules/*"],
+      "@wire/core/*": ["src/core/*"],
+      "@wire/shared/*": ["src/shared/*"],
+      "@wire/repository/*": ["src/repository/index.ts"],
+      "@wire/mappers/*": ["src/mappers/index.ts"],
+      "@wire/dto/*": ["src/dto/index.ts"],
+    }
   }
 }
